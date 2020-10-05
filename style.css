@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+}
+body{
+	background-color: #074A71
+}
+p{
+	font-size: 11px;
+	width: 80%;	
+	color: #463333;
+	padding-left: 19px;
+}
+h2{
+	text-align: center;
+	color: #f6f6f6;
+	padding: 110px 0px 5px 0px;	
+}
+h5{
+	text-align: center;
+	color: #f6f6f6;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 40px;
+
+}
+h4{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;	
+	color: #463333;
+	padding: 15px 0px 10px 20px;
+
+}
+.tengah{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.kiri{	
+	width: 40%;
+	float: left;
+	padding-left: 95px;
+}
+.kiri img{
+	width: 88%;
+	height: 350px;	
+	border-radius: 2px ;
+	object-fit: cover;
+	display: block;
+	padding-left: 15px;
+  
+}
+.kanan{
+	width: 40%;	
+	float: right;	
+	margin-right: 85px;
+	
+}
+.box1{
+	background-color: #fff;
+	height: 103px;
+	margin-bottom: 20px;	
+	border-radius: 2px;
+
+}
+.box2{
+	background-color: #fff;
+	height: 103px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+}
+.box3{
+	background-color: #fff;
+	height: 103px;
+	border-radius: 2px;
+}
+.button{
+	width: 13%;
+	background-color: #000000;	
+	height: 103px;
+	float: right;
+	display: inline-block; 	
+  	transition:all .3s ease-in-out;
+}
+.button img{
+	width: 25%;
+	padding: 45px 0px 0px 20px;
+	cursor: pointer;
+
+}
+.button:hover{
+	background-color: #708090;
+	cursor: pointer;
+}
